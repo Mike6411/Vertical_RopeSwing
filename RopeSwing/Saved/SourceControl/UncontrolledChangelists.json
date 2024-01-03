@@ -5,7 +5,32 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Miquel Nadal/Documents/Unreal Projects/RopeSwing/Content/Imports/test.uasset"
+				"C:/Users/Miquel Nadal/Documents/Unreal Projects/RopeSwing/Content/Imports/test.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/test.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/AssRfl_mat.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/assual_riflex_textur_D.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/WPN_AssaultRifle/assual_riflex_textur_D.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/assual_riflex_textur_N.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/assual_riflex_textur_SP.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/WPN_AssaultRifle/assual_riflex_textur_SP.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_materl.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/crossbow_scope_D.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/crossbow_Scope_materl.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/crossbow_scope_N.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/crossbow_scope_SP.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_textur_D.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_textur_N.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_textur_SP.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_textur_upgrade_D.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_textur_upgrade_N.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_textur_upgrade_SP.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/Crossbow_upgrade_materl.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/WPN_AssaultRifle.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/WPN_AssaultRifle_PhysicsAsset.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/AR/WPN_AssaultRifle/WPN_AssaultRifle_Skeleton.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/WPN_Crossbow.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/WPN_Crossbow_PhysicsAsset.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/Content/Imports/Assets/CB/WPN_Crossbow/WPN_Crossbow_Skeleton.uasset"
 			]
 		}
 	]
