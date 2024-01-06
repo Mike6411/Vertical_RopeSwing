@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-01_MMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-01_NMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-02_BMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-02_MMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-02_NMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-00_BMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-00_MMout.uasset",
+				"D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/Skeletons/Textures/Wayne/hm61-00_NMout.uasset"
+			]
+		}
+	]
+}
