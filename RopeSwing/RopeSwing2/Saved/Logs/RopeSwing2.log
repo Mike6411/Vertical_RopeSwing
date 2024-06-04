@@ -6275,3 +6275,1193 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.04-14.20.38:801][636]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 14.6 sec)
 [2024.06.04-14.20.38:808][636]AssetCheck: New page: Asset Save: ABP_PlayerChar
 [2024.06.04-14.20.38:808][636]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.21.23:047][206]LogEditorTransaction: Undo Delete current selection
+[2024.06.04-14.21.23:222][206]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_19:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.04-14.21.23:223][206]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_29:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.04-14.22.07:474][482]BlueprintLog: New page: Compile ABP_PlayerChar
+[2024.06.04-14.22.07:522][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.06.04-14.22.08:443][575]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.22.08:505][575]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.22.08:549][575]LogSavePackage: Moving output files for package: /Game/Blueprints/ABP_PlayerChar
+[2024.06.04-14.22.08:549][575]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar2151AD684818D985CED2F99B1351731E.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset'
+[2024.06.04-14.22.08:557][575]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 14.7 sec)
+[2024.06.04-14.22.08:562][575]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.22.08:562][575]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.22.21:555][843]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-14.22.21:564][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-14.22.21:564][843]PIE: New page: PIE session: Testbed (4 de juny 2024, 18:22:21)
+[2024.06.04-14.22.21:564][843]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testbed
+[2024.06.04-14.22.21:579][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015112s)
+[2024.06.04-14.22.21:579][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testbed.Testbed to /Game/Levels/UEDPIE_0_Testbed.Testbed (0.015159s)
+[2024.06.04-14.22.21:579][843]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.22.21:579][843]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.22.21:580][843]LogAIModule: Creating AISystem for world Testbed
+[2024.06.04-14.22.21:580][843]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2024.06.04-14.22.21:607][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.06.04-14.22.21:610][843]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.04-14.22.21:610][843]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-14.22.21:610][843]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-14.22.21:611][843]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-14.22.21:611][843]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-14.22.21:611][843]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-14.22.21:614][843]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-14.22.21:642][843]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Astro MixAmp Pro Game)
+[2024.06.04-14.22.21:642][843]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-14.22.21:642][843]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-14.22.21:642][843]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-14.22.21:644][843]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.06.04-14.22.21:644][843]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.06.04-14.22.21:645][843]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.06.04-14.22.21:645][843]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.06.04-14.22.21:645][843]LogInit: FAudioDevice initialized with ID 19.
+[2024.06.04-14.22.21:645][843]LogAudio: Display: Audio Device (ID: 19) registered with world 'Testbed'.
+[2024.06.04-14.22.21:645][843]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.06.04-14.22.21:700][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-14.22.21:700][843]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-14.22.21:705][843]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testbed.Testbed up for play (max tick rate 0) at 2024.06.04-16.22.21
+[2024.06.04-14.22.21:705][843]LogWorld: Bringing up level for play took: 0.005007
+[2024.06.04-14.22.21:708][843]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.06.04-14.22.21:708][843]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.06.04-14.22.21:711][843]PIE: Server logged in
+[2024.06.04-14.22.21:712][843]PIE: Play in editor total start time 0,148 seconds.
+[2024.06.04-14.22.21:730][843]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.06.04-14.22.27:718][229]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-14.22.27:718][229]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testbed
+[2024.06.04-14.22.27:719][229]LogSlate: Window 'RopeSwing2 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.06.04-14.22.27:725][229]LogWorld: UWorld::CleanupWorld for Testbed, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.22.27:726][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.22.27:730][229]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-14.22.27:734][229]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.22.27:752][229]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-14.22.27:752][229]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.06.04-14.22.27:752][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.06.04-14.22.27:754][229]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.06.04-14.22.27:763][229]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.06.04-14.22.27:873][230]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.06.04-14.23.40:158][322]BlueprintLog: New page: Compile ABP_PlayerChar
+[2024.06.04-14.23.40:212][322]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.06.04-14.23.40:914][392]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.23.40:988][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.23.41:006][392]LogSavePackage: Moving output files for package: /Game/Blueprints/ABP_PlayerChar
+[2024.06.04-14.23.41:006][392]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar6A486A7541A595B13B140E9D2483A0F3.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset'
+[2024.06.04-14.23.41:013][392]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 14.8 sec)
+[2024.06.04-14.23.41:021][392]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.23.41:021][392]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.24.19:725][714]BlueprintLog: New page: Compile ABP_PlayerChar
+[2024.06.04-14.24.19:787][714]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.06.04-14.24.20:476][781]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.24.20:557][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.24.20:591][781]LogSavePackage: Moving output files for package: /Game/Blueprints/ABP_PlayerChar
+[2024.06.04-14.24.20:591][781]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerCharD27C121540A51F7C603D21902AE684AF.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset'
+[2024.06.04-14.24.20:598][781]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 14.9 sec)
+[2024.06.04-14.24.20:605][781]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.24.20:605][781]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.24.48:982][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.06.04-14.24.48:985][757]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testbed' took 0.023
+[2024.06.04-14.24.48:985][757]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Android" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Android_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2024.06.04-14.24.48:986][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Android_Auto5
+[2024.06.04-14.24.48:986][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Android_Auto5378BBB3047E977DDC17E5C9A65ECF022.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Android_Auto5.uasset'
+[2024.06.04-14.24.48:986][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand__2_] ([1] browsable assets)...
+[2024.06.04-14.24.48:986][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand__2_]
+[2024.06.04-14.24.48:994][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand__2__Auto5
+[2024.06.04-14.24.48:994][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/cover_to_stand__2__Auto58DFE413E42D17753482844A3B9579251.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand__2__Auto5.uasset'
+[2024.06.04-14.24.48:994][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand] ([1] browsable assets)...
+[2024.06.04-14.24.48:994][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand]
+[2024.06.04-14.24.49:003][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand_Auto5
+[2024.06.04-14.24.49:003][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/cover_to_stand_Auto5AF67297044F61A1BBA380FA39D717705.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/cover_to_stand_Auto5.uasset'
+[2024.06.04-14.24.49:004][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left] ([1] browsable assets)...
+[2024.06.04-14.24.49:004][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left]
+[2024.06.04-14.24.49:021][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left_Auto5
+[2024.06.04-14.24.49:021][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/crouched_sneaking_left_Auto58362912549F45F7FEAF5A0BDA5B68CC7.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left_Auto5.uasset'
+[2024.06.04-14.24.49:022][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right] ([1] browsable assets)...
+[2024.06.04-14.24.49:022][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right]
+[2024.06.04-14.24.49:039][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right_Auto5
+[2024.06.04-14.24.49:039][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/crouched_sneaking_right_Auto5CC5A99A44A11DF598EECD987128D1AB8.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right_Auto5.uasset'
+[2024.06.04-14.24.49:040][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/falling_idle] ([1] browsable assets)...
+[2024.06.04-14.24.49:040][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/falling_idle]
+[2024.06.04-14.24.49:057][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/falling_idle_Auto5
+[2024.06.04-14.24.49:057][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/falling_idle_Auto57BE00FC946E226997FCE769FF1BDB19C.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/falling_idle_Auto5.uasset'
+[2024.06.04-14.24.49:058][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/falling_to_roll] ([1] browsable assets)...
+[2024.06.04-14.24.49:058][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/falling_to_roll]
+[2024.06.04-14.24.49:075][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/falling_to_roll_Auto5
+[2024.06.04-14.24.49:075][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/falling_to_roll_Auto593605C10489A8F84BBD932AE3FED2F45.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/falling_to_roll_Auto5.uasset'
+[2024.06.04-14.24.49:076][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/hard_landing] ([1] browsable assets)...
+[2024.06.04-14.24.49:076][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/hard_landing]
+[2024.06.04-14.24.49:083][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/hard_landing_Auto5
+[2024.06.04-14.24.49:083][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/hard_landing_Auto57462A6334E25DC165E3279A5B683B19C.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/hard_landing_Auto5.uasset'
+[2024.06.04-14.24.49:084][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/idle__2_] ([1] browsable assets)...
+[2024.06.04-14.24.49:084][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/idle__2_]
+[2024.06.04-14.24.49:101][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__2__Auto5
+[2024.06.04-14.24.49:101][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__2__Auto51A9E9C284A4BFE8784D62997E782CE70.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__2__Auto5.uasset'
+[2024.06.04-14.24.49:102][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/idle__3_] ([1] browsable assets)...
+[2024.06.04-14.24.49:103][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/idle__3_]
+[2024.06.04-14.24.49:119][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__3__Auto5
+[2024.06.04-14.24.49:120][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__3__Auto5EA3F695C4ED1C6D53C3BA8914FC04EA1.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__3__Auto5.uasset'
+[2024.06.04-14.24.49:120][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/idle__4_] ([1] browsable assets)...
+[2024.06.04-14.24.49:120][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/idle__4_]
+[2024.06.04-14.24.49:139][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__4__Auto5
+[2024.06.04-14.24.49:139][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__4__Auto52823630D4C8CBC12697FCFBBA2CE60EB.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__4__Auto5.uasset'
+[2024.06.04-14.24.49:140][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/idle__5_] ([1] browsable assets)...
+[2024.06.04-14.24.49:140][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/idle__5_]
+[2024.06.04-14.24.49:158][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__5__Auto5
+[2024.06.04-14.24.49:158][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__5__Auto520DC91CB499DD3A28A4EFE9A8005A6D6.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle__5__Auto5.uasset'
+[2024.06.04-14.24.49:159][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/idle] ([1] browsable assets)...
+[2024.06.04-14.24.49:159][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/idle]
+[2024.06.04-14.24.49:178][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle_Auto5
+[2024.06.04-14.24.49:178][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle_Auto537D29ABF461CAD79B4282DBFC6296D78.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/idle_Auto5.uasset'
+[2024.06.04-14.24.49:179][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/left_cover_sneak] ([1] browsable assets)...
+[2024.06.04-14.24.49:179][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/left_cover_sneak]
+[2024.06.04-14.24.49:197][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/left_cover_sneak_Auto5
+[2024.06.04-14.24.49:197][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/left_cover_sneak_Auto5DC83A63A44F4ED5F7B518297D96C694C.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/left_cover_sneak_Auto5.uasset'
+[2024.06.04-14.24.49:198][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/left_turn] ([1] browsable assets)...
+[2024.06.04-14.24.49:198][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/left_turn]
+[2024.06.04-14.24.49:215][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/left_turn_Auto5
+[2024.06.04-14.24.49:215][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/left_turn_Auto53237ACA041446A5280C7B98BA0ACA09E.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/left_turn_Auto5.uasset'
+[2024.06.04-14.24.49:216][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/right_cover_sneak] ([1] browsable assets)...
+[2024.06.04-14.24.49:216][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/right_cover_sneak]
+[2024.06.04-14.24.49:234][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/right_cover_sneak_Auto5
+[2024.06.04-14.24.49:234][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/right_cover_sneak_Auto526666ACB46A6AD027C3740BB129AB36F.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/right_cover_sneak_Auto5.uasset'
+[2024.06.04-14.24.49:235][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/right_turn] ([1] browsable assets)...
+[2024.06.04-14.24.49:235][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/right_turn]
+[2024.06.04-14.24.49:253][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/right_turn_Auto5
+[2024.06.04-14.24.49:253][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/right_turn_Auto53C303C114C379E0C8336919E75E55EF8.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/right_turn_Auto5.uasset'
+[2024.06.04-14.24.49:254][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/run_to_stop] ([1] browsable assets)...
+[2024.06.04-14.24.49:254][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/run_to_stop]
+[2024.06.04-14.24.49:272][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/run_to_stop_Auto5
+[2024.06.04-14.24.49:272][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/run_to_stop_Auto52FE7D37647722AE0F141268F6710C93E.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/run_to_stop_Auto5.uasset'
+[2024.06.04-14.24.49:273][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover__2_] ([1] browsable assets)...
+[2024.06.04-14.24.49:273][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover__2_]
+[2024.06.04-14.24.49:282][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover__2__Auto5
+[2024.06.04-14.24.49:282][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/stand_to_cover__2__Auto56D5963D24B46CE9040D072838D28DD73.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover__2__Auto5.uasset'
+[2024.06.04-14.24.49:282][757]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover] ([1] browsable assets)...
+[2024.06.04-14.24.49:282][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover]
+[2024.06.04-14.24.49:298][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover_Auto5
+[2024.06.04-14.24.49:298][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/stand_to_cover_Auto519D2388542085D38B03BE1B4FB262B35.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Imports/Assets/PC_Imports/Anims/stand_to_cover_Auto5.uasset'
+[2024.06.04-14.24.49:299][757]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/ABP_PlayerChar] ([2] browsable assets)...
+[2024.06.04-14.24.49:306][757]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Blueprints/ABP_PlayerChar.ABP_PlayerChar]
+[2024.06.04-14.24.49:306][757]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/ABP_PlayerChar]
+[2024.06.04-14.24.49:349][757]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/ABP_PlayerChar_Auto5
+[2024.06.04-14.24.49:349][757]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar_Auto5F529420D4C714151D17073BE7D9F608C.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Blueprints/ABP_PlayerChar_Auto5.uasset'
+[2024.06.04-14.24.49:349][757]LogFileHelpers: Auto-saving content packages took 0.363
+[2024.06.04-14.25.40:699][315]BlueprintLog: New page: Compile ABP_PlayerChar
+[2024.06.04-14.25.40:762][315]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.06.04-14.25.41:494][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.25.41:567][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.25.41:583][374]LogSavePackage: Moving output files for package: /Game/Blueprints/ABP_PlayerChar
+[2024.06.04-14.25.41:584][374]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerCharFAA4F23A4FF839A2D3628EA98AC083CD.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/ABP_PlayerChar.uasset'
+[2024.06.04-14.25.41:589][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 15.0 sec)
+[2024.06.04-14.25.41:597][374]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.25.41:598][374]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.30.05:611][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.05:612][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.05:612][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.05:613][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.05:613][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.05:614][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.05:614][ 34]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.30.31:276][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_Root_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.SKEL_ABP_PlayerChar_C' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar_C' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:EventGraph.K2Node_CallFunction_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateEntryNode_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateNode_0.Idle.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateNode_1.Walking.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateTransitionNode_0.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateTransitionNode_1.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateNode_3.Jump Start.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateTransitionNode_12.AnimationTransitionGraph_2.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar_C:AnimGraph' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.SKEL_ABP_PlayerChar_C:AnimGraph' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateTransitionNode_11.AnimationTransitionGraph_2.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateTransitionNode_6.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.SKEL_ABP_PlayerChar_C:BlueprintUpdateAnimation' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateTransitionNode_13.Transition.AnimGraphNode_TransitionResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:277][407]LogMetaData: Removing '/Game/Animation/ABP_PlayerChar.ABP_PlayerChar:AnimGraph.AnimGraphNode_StateMachine_0.Main State Machine.AnimStateNode_4.Falling.AnimGraphNode_StateResult_0' ref from Metadata '/Game/Blueprints/ABP_PlayerChar.PackageMetaData'
+[2024.06.04-14.30.31:305][407]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.30.31:345][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.30.31:357][407]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerChar
+[2024.06.04-14.30.31:357][407]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BP_PlayerCharF27EBBD5430E2D25B73EB786188F29C8.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset'
+[2024.06.04-14.30.31:358][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.30.31:374][407]LogSavePackage: Moving output files for package: /Game/Animation/ABP_PlayerChar
+[2024.06.04-14.30.31:374][407]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar4A1524A9444B2B10CE8C78B7D6AD4BBD.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset'
+[2024.06.04-14.30.31:392][407]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 15.1 sec)
+[2024.06.04-14.30.31:441][407]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.06.04-14.30.31:480][407]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2024.06.04-14.30.31:511][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.06.04-14.30.31:534][407]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.04-14.30.31:534][407]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar
+[2024.06.04-14.30.31:534][407]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.30.41:861][761]LogSlate: Window 'Pick Skeleton' being destroyed
+[2024.06.04-14.30.41:889][761]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2024.06.04-14.30.41:895][761]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2024.06.04-14.30.41:901][762]LogAutomationController: Ignoring very large delta of 2.73 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.04-14.30.41:907][762]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2024.06.04-14.30.55:223][548]LogContentBrowser: Attempting asset rename: NewBlendSpace -> BS_WalkRun
+[2024.06.04-14.30.55:230][548]LogContentBrowser: End creating deferred item NewBlendSpace
+[2024.06.04-14.30.55:231][548]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.30.56:928][642]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Animation/BS_WalkRun.BS_WalkRun
+[2024.06.04-14.30.57:000][642]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.30.57:000][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.33.34:637][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.33.34:698][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/BS_WalkRun" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/BS_WalkRun.uasset" SILENT=true
+[2024.06.04-14.33.34:700][538]LogSavePackage: Moving output files for package: /Game/Animation/BS_WalkRun
+[2024.06.04-14.33.34:700][538]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BS_WalkRunE360FFE846F8741DDA47259D9401E5B1.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/BS_WalkRun.uasset'
+[2024.06.04-14.33.34:713][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 15.2 sec)
+[2024.06.04-14.33.34:718][538]AssetCheck: New page: Asset Save: BS_WalkRun
+[2024.06.04-14.33.34:718][538]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/Animation/BS_WalkRun.BS_WalkRun
+[2024.06.04-14.34.49:946][308]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.06.04-14.34.49:954][308]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testbed' took 0.035
+[2024.06.04-14.34.49:954][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Animation/BS_WalkRun] ([1] browsable assets)...
+[2024.06.04-14.34.49:973][308]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/Animation/BS_WalkRun.BS_WalkRun]
+[2024.06.04-14.34.49:973][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/BS_WalkRun]
+[2024.06.04-14.34.49:975][308]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animation/BS_WalkRun_Auto6
+[2024.06.04-14.34.49:975][308]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BS_WalkRun_Auto6FAF9F82B4AD3F0C9C39D06ABCDC4F80F.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Animation/BS_WalkRun_Auto6.uasset'
+[2024.06.04-14.34.49:975][308]LogFileHelpers: Auto-saving content packages took 0.021
+[2024.06.04-14.36.46:077][792]BlueprintLog: New page: Compile ABP_PlayerChar
+[2024.06.04-14.36.46:122][792]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.06.04-14.36.46:979][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.36.47:058][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.36.47:102][882]LogSavePackage: Moving output files for package: /Game/Animation/ABP_PlayerChar
+[2024.06.04-14.36.47:102][882]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar78E4B17049EFA52EA414648DC814A44E.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset'
+[2024.06.04-14.36.47:111][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 131 ms (total: 15.3 sec)
+[2024.06.04-14.36.47:118][882]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.36.47:118][882]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.36.54:650][555]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.36.54:698][555]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.36.54:715][555]LogSavePackage: Moving output files for package: /Game/Animation/ABP_PlayerChar
+[2024.06.04-14.36.54:715][555]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar314E6346456E185170A800B77202689A.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset'
+[2024.06.04-14.36.54:722][555]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 15.4 sec)
+[2024.06.04-14.36.54:730][555]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.36.54:730][555]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.36.55:041][579]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.36.55:099][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.36.55:116][579]LogSavePackage: Moving output files for package: /Game/Animation/ABP_PlayerChar
+[2024.06.04-14.36.55:116][579]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar43B4802445530C1DE5F19FB1321FB5FA.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset'
+[2024.06.04-14.36.55:123][579]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 15.4 sec)
+[2024.06.04-14.36.55:127][579]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.36.55:128][579]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.36.56:717][756]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-14.36.56:726][756]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.06.04-14.36.56:727][756]LogPlayLevel: [PlayLevel] Compiling ABP_PlayerChar before play...
+[2024.06.04-14.36.56:727][756]LogPlayLevel: [PlayLevel]   Compiling BP_PlayerChar as a dependent...
+[2024.06.04-14.36.56:867][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.06.04-14.36.56:871][756]LogPlayLevel: PlayLevel: Blueprint regeneration took 145 ms (2 blueprints)
+[2024.06.04-14.36.56:871][756]PIE: New page: PIE session: Testbed (4 de juny 2024, 18:36:56)
+[2024.06.04-14.36.56:871][756]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testbed
+[2024.06.04-14.36.56:878][756]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007317s)
+[2024.06.04-14.36.56:878][756]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testbed.Testbed to /Game/Levels/UEDPIE_0_Testbed.Testbed (0.007349s)
+[2024.06.04-14.36.56:878][756]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.36.56:879][756]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.36.56:879][756]LogAIModule: Creating AISystem for world Testbed
+[2024.06.04-14.36.56:879][756]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2024.06.04-14.36.56:898][756]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.06.04-14.36.56:899][756]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.06.04-14.36.56:899][756]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-14.36.56:899][756]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-14.36.56:900][756]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-14.36.56:900][756]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-14.36.56:900][756]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-14.36.56:900][756]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.04-14.36.56:900][756]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-14.36.56:900][756]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-14.36.56:900][756]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-14.36.56:900][756]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-14.36.56:900][756]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-14.36.56:903][756]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-14.36.56:940][756]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Astro MixAmp Pro Game)
+[2024.06.04-14.36.56:941][756]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-14.36.56:941][756]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-14.36.56:941][756]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-14.36.56:941][756]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.06.04-14.36.56:941][756]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.06.04-14.36.56:944][756]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.06.04-14.36.56:944][756]LogInit: FAudioDevice initialized with ID 20.
+[2024.06.04-14.36.56:945][756]LogAudio: Display: Audio Device (ID: 20) registered with world 'Testbed'.
+[2024.06.04-14.36.56:945][756]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.06.04-14.36.56:945][756]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.06.04-14.36.57:000][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-14.36.57:001][756]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-14.36.57:003][756]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testbed.Testbed up for play (max tick rate 0) at 2024.06.04-16.36.57
+[2024.06.04-14.36.57:003][756]LogWorld: Bringing up level for play took: 0.002383
+[2024.06.04-14.36.57:006][756]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2024.06.04-14.36.57:006][756]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.06.04-14.36.57:008][756]PIE: Server logged in
+[2024.06.04-14.36.57:008][756]PIE: Play in editor total start time 0,282 seconds.
+[2024.06.04-14.36.57:062][756]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.06.04-14.37.02:915][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-14.37.02:915][155]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testbed
+[2024.06.04-14.37.02:916][155]LogSlate: Window 'RopeSwing2 Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6)' being destroyed
+[2024.06.04-14.37.02:921][155]LogWorld: UWorld::CleanupWorld for Testbed, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.37.02:922][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.37.02:927][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-14.37.02:932][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.37.02:956][155]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.06.04-14.37.02:956][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.06.04-14.37.02:959][155]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.06.04-14.37.02:967][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.06.04-14.37.03:069][156]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2024.06.04-14.37.28:642][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.37.28:704][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/BS_WalkRun" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/BS_WalkRun.uasset" SILENT=true
+[2024.06.04-14.37.28:705][570]LogSavePackage: Moving output files for package: /Game/Animation/BS_WalkRun
+[2024.06.04-14.37.28:706][570]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BS_WalkRun69247C5042CA3CFDC77E3D9FBD226760.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/BS_WalkRun.uasset'
+[2024.06.04-14.37.28:713][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 15.5 sec)
+[2024.06.04-14.37.28:718][570]AssetCheck: New page: Asset Save: BS_WalkRun
+[2024.06.04-14.37.28:718][570]LogContentValidation: Display: Validating /Script/Engine.BlendSpace /Game/Animation/BS_WalkRun.BS_WalkRun
+[2024.06.04-14.37.31:233][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:233][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:234][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:234][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:235][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:235][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:235][792]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.31:270][793]LogViewport: Scene viewport resized to 482x209, mode Windowed.
+[2024.06.04-14.37.31:845][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.37.31:901][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Testbed" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Levels/Testbed.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-14.37.31:925][817]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.06.04-14.37.31:997][817]LogSavePackage: Moving output files for package: /Game/Levels/Testbed
+[2024.06.04-14.37.31:997][817]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Testbed81A7545441326E2058A312957619A724.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Levels/Testbed.umap'
+[2024.06.04-14.37.32:008][817]LogFileHelpers: Saving map 'Testbed' took 0.107
+[2024.06.04-14.37.32:016][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 15.7 sec)
+[2024.06.04-14.37.32:025][817]AssetCheck: New page: Asset Save: Testbed
+[2024.06.04-14.37.32:025][817]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Testbed.Testbed
+[2024.06.04-14.37.32:658][855]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.04-14.37.32:665][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.04-14.37.32:665][855]PIE: New page: PIE session: Testbed (4 de juny 2024, 18:37:32)
+[2024.06.04-14.37.32:685][855]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Testbed
+[2024.06.04-14.37.32:692][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006948s)
+[2024.06.04-14.37.32:692][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Testbed.Testbed to /Game/Levels/UEDPIE_0_Testbed.Testbed (0.006988s)
+[2024.06.04-14.37.32:692][855]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.37.32:692][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.37.32:692][855]LogAIModule: Creating AISystem for world Testbed
+[2024.06.04-14.37.32:692][855]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2024.06.04-14.37.32:713][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.06.04-14.37.32:714][855]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.04-14.37.32:714][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.04-14.37.32:714][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.04-14.37.32:715][855]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.04-14.37.32:715][855]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.04-14.37.32:715][855]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.04-14.37.32:718][855]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.04-14.37.32:745][855]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Astro MixAmp Pro Game)
+[2024.06.04-14.37.32:745][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.04-14.37.32:745][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.04-14.37.32:745][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.04-14.37.32:745][855]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.06.04-14.37.32:745][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.06.04-14.37.32:748][855]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.06.04-14.37.32:748][855]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.06.04-14.37.32:748][855]LogInit: FAudioDevice initialized with ID 21.
+[2024.06.04-14.37.32:748][855]LogAudio: Display: Audio Device (ID: 21) registered with world 'Testbed'.
+[2024.06.04-14.37.32:748][855]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.06.04-14.37.32:751][855]LogLoad: Game class is 'GameModeBase'
+[2024.06.04-14.37.32:753][855]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testbed.Testbed up for play (max tick rate 0) at 2024.06.04-16.37.32
+[2024.06.04-14.37.32:754][855]LogWorld: Bringing up level for play took: 0.002423
+[2024.06.04-14.37.32:755][855]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2024.06.04-14.37.32:756][855]PIE: Server logged in
+[2024.06.04-14.37.32:757][855]PIE: Play in editor total start time 0,093 seconds.
+[2024.06.04-14.37.32:848][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:848][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:849][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:849][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:850][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:850][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:850][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.32:850][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.52:955][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-14.37.52:955][258]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testbed
+[2024.06.04-14.37.52:955][258]LogWorld: UWorld::CleanupWorld for Testbed, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.37.52:956][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.37.52:963][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.04-14.37.52:967][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.37.52:992][258]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.04-14.37.52:992][258]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.06.04-14.37.52:992][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.06.04-14.37.52:996][258]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.06.04-14.37.53:001][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.04-14.37.53:006][258]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.06.04-14.37.53:031][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:031][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:031][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:032][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:032][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:032][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:033][258]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.37.53:071][259]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2024.06.04-14.37.53:076][259]LogViewport: Scene viewport resized to 482x209, mode Windowed.
+[2024.06.04-14.38.23:881][561]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.38.23:938][561]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.38.23:962][561]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerChar
+[2024.06.04-14.38.23:962][561]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BP_PlayerChar2189B9B94C8CE8114A3E478486AC348E.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset'
+[2024.06.04-14.38.23:970][561]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 15.8 sec)
+[2024.06.04-14.38.23:975][561]AssetCheck: New page: Asset Save: BP_PlayerChar
+[2024.06.04-14.38.23:975][561]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar
+[2024.06.04-14.38.52:370][704]BlueprintLog: New page: Compile BP_PlayerChar
+[2024.06.04-14.38.52:517][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.06.04-14.38.53:429][791]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.38.53:491][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.38.53:513][791]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerChar
+[2024.06.04-14.38.53:513][791]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BP_PlayerChar5614ACB14B171C8672579EB8E9A12DEE.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset'
+[2024.06.04-14.38.53:523][791]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 15.9 sec)
+[2024.06.04-14.38.53:529][791]AssetCheck: New page: Asset Save: BP_PlayerChar
+[2024.06.04-14.38.53:529][791]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar
+[2024.06.04-14.38.53:842][828]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.04-14.38.53:904][829]LogViewport: Scene viewport resized to 482x209, mode Windowed.
+[2024.06.04-14.38.54:499][853]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.38.54:566][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Testbed" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Levels/Testbed.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.06.04-14.38.54:589][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.06.04-14.38.54:622][853]LogSavePackage: Moving output files for package: /Game/Levels/Testbed
+[2024.06.04-14.38.54:622][853]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Testbed36A9D50E43736A7A2AE3F098EA610C01.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Levels/Testbed.umap'
+[2024.06.04-14.38.54:632][853]LogFileHelpers: Saving map 'Testbed' took 0.067
+[2024.06.04-14.38.54:640][853]LogFileHelpers: InternalPromptForCheckoutAndSave took 140 ms (total: 16.0 sec)
+[2024.06.04-14.38.54:647][853]AssetCheck: New page: Asset Save: Testbed
+[2024.06.04-14.38.54:647][853]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Testbed.Testbed
+[2024.06.04-14.40.06:582][644]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.40.06:582][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.40.06:597][644]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.40.06:597][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.40.06:652][644]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.40.06:652][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.44.05:556][282]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.44.05:556][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.44.05:601][282]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.44.05:601][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.44.06:796][424]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.44.06:858][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.44.06:867][424]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerChar
+[2024.06.04-14.44.06:867][424]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BP_PlayerCharB48E88724286911411DACB9EE3634F15.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset'
+[2024.06.04-14.44.06:874][424]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 16.1 sec)
+[2024.06.04-14.44.06:880][424]AssetCheck: New page: Asset Save: BP_PlayerChar
+[2024.06.04-14.44.06:880][424]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar
+[2024.06.04-14.44.08:554][552]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.44.08:559][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.44.08:559][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.44.08:579][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.44.08:579][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.44.08:586][552]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_34:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.04-14.44.08:781][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.44.08:781][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.44.08:873][552]LogViewport: Scene viewport resized to 476x431, mode Windowed.
+[2024.06.04-14.44.08:909][552]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.06.04-14.44.24:282][220]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace /Game/Animation/BS_WalkRun.BS_WalkRun
+[2024.06.04-14.44.24:283][220]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.44.24:283][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.44.24:303][220]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_36:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.06.04-14.44.24:417][220]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.04-14.44.24:417][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.04-14.44.24:530][220]LogViewport: Scene viewport resized to 1141x562, mode Windowed.
+[2024.06.04-14.44.24:551][220]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.06.04-14.48.54:858][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.06.04-14.48.54:861][263]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Testbed' took 0.052
+[2024.06.04-14.48.54:862][263]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Animation/ABP_PlayerChar] ([2] browsable assets)...
+[2024.06.04-14.48.54:936][263]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar]
+[2024.06.04-14.48.54:936][263]OBJ SavePackage: Finished generating thumbnails for package [/Game/Animation/ABP_PlayerChar]
+[2024.06.04-14.48.54:968][263]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Animation/ABP_PlayerChar_Auto7
+[2024.06.04-14.48.54:968][263]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar_Auto79E597EBE4777A2F908E1889CE199A3DB.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Animation/ABP_PlayerChar_Auto7.uasset'
+[2024.06.04-14.48.54:969][263]LogFileHelpers: Auto-saving content packages took 0.107
+[2024.06.04-14.49.30:765][373]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.49.30:887][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animation/ABP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset" SILENT=true
+[2024.06.04-14.49.30:916][373]LogSavePackage: Moving output files for package: /Game/Animation/ABP_PlayerChar
+[2024.06.04-14.49.30:917][373]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/ABP_PlayerChar4D8B59284ECE19A29C3F228F5F54CA14.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Animation/ABP_PlayerChar.uasset'
+[2024.06.04-14.49.30:925][373]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 16.2 sec)
+[2024.06.04-14.49.30:931][373]AssetCheck: New page: Asset Save: ABP_PlayerChar
+[2024.06.04-14.49.30:931][373]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Animation/ABP_PlayerChar.ABP_PlayerChar
+[2024.06.04-14.49.37:330][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.06.04-14.49.39:384][116]LogSlate: Window 'Save Content' being destroyed
+[2024.06.04-14.49.39:398][116]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.04-14.49.39:481][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.06.04-14.49.39:491][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/cover_to_stand
+[2024.06.04-14.49.39:491][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/cover_to_standB766616D474AEDC756376EA24B22ADF5.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/cover_to_stand.uasset'
+[2024.06.04-14.49.39:503][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/cover_to_stand__2_
+[2024.06.04-14.49.39:503][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/cover_to_stand__2_B3B9C5D9411D7323AFF0B88EB5F6EB82.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/cover_to_stand__2_.uasset'
+[2024.06.04-14.49.39:513][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left
+[2024.06.04-14.49.39:513][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/crouched_sneaking_left10D9B43644DF445E80A6069F9707DB8A.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left.uasset'
+[2024.06.04-14.49.39:524][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right
+[2024.06.04-14.49.39:524][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/crouched_sneaking_right95847F4F42CFC50CCAF88EAECD1DA4C6.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right.uasset'
+[2024.06.04-14.49.39:534][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/falling_idle
+[2024.06.04-14.49.39:534][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/falling_idleC7FE50604A726BE6AEED53BCAEDF9406.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/falling_idle.uasset'
+[2024.06.04-14.49.39:544][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/falling_to_roll
+[2024.06.04-14.49.39:544][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/falling_to_roll8E2868414C71F5281B1BED9AC9F4EE9C.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/falling_to_roll.uasset'
+[2024.06.04-14.49.39:555][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/hard_landing
+[2024.06.04-14.49.39:555][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/hard_landing5FB95B1042D408C5AC4ED3A670544C29.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/hard_landing.uasset'
+[2024.06.04-14.49.39:566][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/idle
+[2024.06.04-14.49.39:566][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle87AD497A449CBDF13DEB55B5744DBED0.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/idle.uasset'
+[2024.06.04-14.49.39:577][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/idle__2_
+[2024.06.04-14.49.39:577][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__2_0140BBDB419395EF1E940B8E459389E5.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/idle__2_.uasset'
+[2024.06.04-14.49.39:588][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/idle__3_
+[2024.06.04-14.49.39:588][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__3_A8A2247C4A0AA44AA89CF99605E81690.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/idle__3_.uasset'
+[2024.06.04-14.49.39:599][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/idle__4_
+[2024.06.04-14.49.39:599][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__4_0B8C771A43577C7E48B8D38FC839BC3A.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/idle__4_.uasset'
+[2024.06.04-14.49.39:616][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/idle__5_
+[2024.06.04-14.49.39:616][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/idle__5_41F4A556458428F5B1F65FBC15BFDF3D.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/idle__5_.uasset'
+[2024.06.04-14.49.39:631][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/left_cover_sneak
+[2024.06.04-14.49.39:631][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/left_cover_sneakC7DA15C04BCFB300C89BE48DCFBB41DA.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/left_cover_sneak.uasset'
+[2024.06.04-14.49.39:650][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/left_turn
+[2024.06.04-14.49.39:650][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/left_turn6D21879D41723F84352CED8DE4DD527A.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/left_turn.uasset'
+[2024.06.04-14.49.39:666][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/right_cover_sneak
+[2024.06.04-14.49.39:666][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/right_cover_sneakD0D18244429535B90D5FC4B33974F7ED.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/right_cover_sneak.uasset'
+[2024.06.04-14.49.39:676][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/right_turn
+[2024.06.04-14.49.39:677][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/right_turnF1AB518243EE4F8F4A70E6919945A858.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/right_turn.uasset'
+[2024.06.04-14.49.39:687][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/run_to_stop
+[2024.06.04-14.49.39:687][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/run_to_stopE179860D4F244EAC01F0E4AE8885F8DF.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/run_to_stop.uasset'
+[2024.06.04-14.49.39:698][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/stand_to_cover
+[2024.06.04-14.49.39:698][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/stand_to_coverCC9088B34587811BB57B22B8FC43ABAE.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/stand_to_cover.uasset'
+[2024.06.04-14.49.39:708][116]LogSavePackage: Moving output files for package: /Game/Imports/Assets/PC_Imports/Anims/stand_to_cover__2_
+[2024.06.04-14.49.39:708][116]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/stand_to_cover__2_F3A6B81A4969CC6474C15BA990A1D34A.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Imports/Assets/PC_Imports/Anims/stand_to_cover__2_.uasset'
+[2024.06.04-14.49.39:719][116]LogFileHelpers: InternalPromptForCheckoutAndSave took 320 ms (total: 16.6 sec)
+[2024.06.04-14.49.39:719][116]LogStall: Shutdown...
+[2024.06.04-14.49.39:723][116]LogStall: Shutdown complete.
+[2024.06.04-14.49.39:755][116]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.39:755][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.39:853][116]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.39:853][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.39:862][116]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.39:862][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.39:924][116]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.39:924][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.39:947][116]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.39:947][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.39:953][116]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.39:953][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.39:999][116]LogSlate: Window 'RopeSwing2 - Unreal Editor' being destroyed
+[2024.06.04-14.49.40:093][116]AssetCheck: New page: Asset Save: multiple assets
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/left_turn.left_turn
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/left_cover_sneak.left_cover_sneak
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/idle.idle
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/idle__5_.idle__5_
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/idle__4_.idle__4_
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/idle__3_.idle__3_
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/idle__2_.idle__2_
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/hard_landing.hard_landing
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/falling_to_roll.falling_to_roll
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/cover_to_stand__2_.cover_to_stand__2_
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/right_cover_sneak.right_cover_sneak
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/falling_idle.falling_idle
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_right.crouched_sneaking_right
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/crouched_sneaking_left.crouched_sneaking_left
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/cover_to_stand.cover_to_stand
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/stand_to_cover.stand_to_cover
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/stand_to_cover__2_.stand_to_cover__2_
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/run_to_stop.run_to_stop
+[2024.06.04-14.49.40:093][116]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Imports/Assets/PC_Imports/Anims/right_turn.right_turn
+[2024.06.04-14.49.40:101][117]LogAutomationController: Ignoring very large delta of 2.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.06.04-14.49.40:102][117]Cmd: QUIT_EDITOR
+[2024.06.04-14.49.40:102][117]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.06.04-14.49.40:107][117]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.06.04-14.49.40:107][117]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.06.04-14.49.40:108][117]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.06.04-14.49.40:114][117]LogWorld: UWorld::CleanupWorld for Testbed, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.40:114][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.04-14.49.40:121][117]LogStylusInput: Shutting down StylusInput subsystem.
+[2024.06.04-14.49.40:126][117]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.06.04-14.49.40:983][117]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.06.04-14.49.40:983][117]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.06.04-14.49.40:983][117]LogAudio: Display: Audio Device unregistered from world 'Testbed'.
+[2024.06.04-14.49.40:983][117]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.06.04-14.49.40:983][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.04-14.49.40:985][117]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.06.04-14.49.40:994][117]LogAudio: Display: Audio Device Manager Shutdown
+[2024.06.04-14.49.40:998][117]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.06.04-14.49.40:999][117]LogExit: Preparing to exit.
+[2024.06.04-14.49.41:046][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.06.04-14.49.41:077][117]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:077][117]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:080][117]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:081][117]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:081][117]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:081][117]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:081][117]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:081][117]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:082][117]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.06.04-14.49.41:777][117]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:780][117]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:783][117]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:785][117]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:788][117]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:790][117]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:792][117]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:795][117]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:797][117]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:798][117]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:800][117]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:802][117]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:804][117]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.06.04-14.49.41:920][117]LogExit: Editor shut down
+[2024.06.04-14.49.41:925][117]LogExit: Transaction tracking system shut down
+[2024.06.04-14.49.41:943][117]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.06.04-14.49.42:297][117]LogExit: Object subsystem successfully closed.
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: ================================================
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Total job queries 246, among them cache hits 0 (0.00%)
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Tracking 156 distinct input hashes that result in 31 distinct outputs (19.87%)
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: RAM used: 3,70 MiB of 1,60 GiB budget. Usage: 0.23%
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Shaders Compiled: 150
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Jobs assigned 150, completed 150 (100.00%)
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Average time worker was idle: 6.60 s
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Time job spent in pending queue: average 0.53 s, longest 1.93 s
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Job execution time: average 1.18 s, max 3.39 s
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Job life time (pending + execution): average 1.71 s, max 3.40
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.31 s
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Jobs were issued in 128 batches (only local compilation was used), average 1.17 jobs/batch
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Average processing rate: 9.80 jobs/sec
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Total thread time: 88,695 s
+[2024.06.04-14.49.42:306][117]LogShaderCompilers: Display: Total thread preprocess time: 3,116 s
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: Percentage time preprocessing: 3.51%
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: Effective parallelization: 5.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   10 times, average 0.68 sec, max 0.74 sec, min 0.53 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   10 times, average 0.67 sec, max 0.75 sec, min 0.63 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   10 times, average 0.65 sec, max 0.77 sec, min 0.59 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   10 times, average 0.65 sec, max 0.77 sec, min 0.60 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   10 times, average 0.65 sec, max 0.70 sec, min 0.60 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.68% of total time (compiled   10 times, average 0.68 sec, max 0.74 sec, min 0.53 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.56% of total time (compiled   10 times, average 0.67 sec, max 0.75 sec, min 0.63 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 7.37% of total time (compiled   10 times, average 0.65 sec, max 0.77 sec, min 0.59 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.34% of total time (compiled   10 times, average 0.65 sec, max 0.77 sec, min 0.60 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.33% of total time (compiled   10 times, average 0.65 sec, max 0.70 sec, min 0.60 sec)
+[2024.06.04-14.49.42:307][117]LogShaderCompilers: Display: ================================================
+[2024.06.04-14.49.42:317][117]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.06.04-14.49.42:376][117]LogVirtualization: UE::Virtualization was shutdown
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1023)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module Voice (1021)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module SequencerWidgets (1019)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module PinnedCommandList (1017)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module SkeletonEditor (1015)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module AnimationEditor (1013)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1011)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1009)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module SceneOutliner (1007)
+[2024.06.04-14.49.42:500][117]LogModuleManager: Shutting down and abandoning module AddContentDialog (1005)
+[2024.06.04-14.49.42:502][117]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1004)
+[2024.06.04-14.49.42:502][117]LogModuleManager: Shutting down and abandoning module StatusBar (1001)
+[2024.06.04-14.49.42:502][117]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (999)
+[2024.06.04-14.49.42:502][117]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (997)
+[2024.06.04-14.49.42:502][117]LogModuleManager: Shutting down and abandoning module StatsViewer (995)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (993)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module AutomationWorker (991)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (989)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (987)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (985)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (983)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module WebMMedia (981)
+[2024.06.04-14.49.42:503][117]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (979)
+[2024.06.04-14.49.42:504][117]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (977)
+[2024.06.04-14.49.42:506][117]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (975)
+[2024.06.04-14.49.42:506][117]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (973)
+[2024.06.04-14.49.42:506][117]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (971)
+[2024.06.04-14.49.42:507][117]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (969)
+[2024.06.04-14.49.42:507][117]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (967)
+[2024.06.04-14.49.42:507][117]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (965)
+[2024.06.04-14.49.42:507][117]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (963)
+[2024.06.04-14.49.42:507][117]LogModuleManager: Shutting down and abandoning module PlanarCut (961)
+[2024.06.04-14.49.42:508][117]LogModuleManager: Shutting down and abandoning module FractureEngine (959)
+[2024.06.04-14.49.42:508][117]LogModuleManager: Shutting down and abandoning module CharacterAI (957)
+[2024.06.04-14.49.42:508][117]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (955)
+[2024.06.04-14.49.42:510][117]LogModuleManager: Shutting down and abandoning module TextureAlignMode (953)
+[2024.06.04-14.49.42:510][117]LogModuleManager: Shutting down and abandoning module BspMode (951)
+[2024.06.04-14.49.42:510][117]LogModuleManager: Shutting down and abandoning module GeometryMode (949)
+[2024.06.04-14.49.42:510][117]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (947)
+[2024.06.04-14.49.42:510][117]LogModuleManager: Shutting down and abandoning module WaveTableEditor (945)
+[2024.06.04-14.49.42:511][117]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (943)
+[2024.06.04-14.49.42:511][117]LogModuleManager: Shutting down and abandoning module GooglePADEditor (941)
+[2024.06.04-14.49.42:511][117]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (939)
+[2024.06.04-14.49.42:511][117]LogModuleManager: Shutting down and abandoning module SequenceRecorder (938)
+[2024.06.04-14.49.42:512][117]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (935)
+[2024.06.04-14.49.42:512][117]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (933)
+[2024.06.04-14.49.42:512][117]LogModuleManager: Shutting down and abandoning module IKRigEditor (931)
+[2024.06.04-14.49.42:514][117]LogModuleManager: Shutting down and abandoning module ControlRigEditor (929)
+[2024.06.04-14.49.42:517][117]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (927)
+[2024.06.04-14.49.42:517][117]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (925)
+[2024.06.04-14.49.42:519][117]LogModuleManager: Shutting down and abandoning module SmartSnapping (923)
+[2024.06.04-14.49.42:519][117]LogModuleManager: Shutting down and abandoning module SessionServices (921)
+[2024.06.04-14.49.42:521][117]LogModuleManager: Shutting down and abandoning module MeshPaint (919)
+[2024.06.04-14.49.42:522][117]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (917)
+[2024.06.04-14.49.42:522][117]LogModuleManager: Shutting down and abandoning module PlacementMode (916)
+[2024.06.04-14.49.42:523][117]LogModuleManager: Shutting down and abandoning module FoliageEdit (913)
+[2024.06.04-14.49.42:524][117]LogModuleManager: Shutting down and abandoning module LandscapeEditor (911)
+[2024.06.04-14.49.42:527][117]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (909)
+[2024.06.04-14.49.42:527][117]LogModuleManager: Shutting down and abandoning module ActorPickerMode (907)
+[2024.06.04-14.49.42:527][117]LogModuleManager: Shutting down and abandoning module ViewportSnapping (905)
+[2024.06.04-14.49.42:527][117]LogModuleManager: Shutting down and abandoning module ViewportInteraction (903)
+[2024.06.04-14.49.42:527][117]LogModuleManager: Shutting down and abandoning module ClothPainter (901)
+[2024.06.04-14.49.42:528][117]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (900)
+[2024.06.04-14.49.42:529][117]LogModuleManager: Shutting down and abandoning module LogVisualizer (897)
+[2024.06.04-14.49.42:532][117]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (895)
+[2024.06.04-14.49.42:532][117]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (893)
+[2024.06.04-14.49.42:533][117]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (892)
+[2024.06.04-14.49.42:533][117]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (890)
+[2024.06.04-14.49.43:258][117]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (887)
+[2024.06.04-14.49.43:258][117]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (885)
+[2024.06.04-14.49.43:258][117]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (883)
+[2024.06.04-14.49.43:258][117]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (881)
+[2024.06.04-14.49.43:258][117]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (879)
+[2024.06.04-14.49.43:258][117]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (877)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module AnimationSettings (875)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (873)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module CSVtoSVG (871)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (869)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module EditorConfig (867)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module EditorFramework (865)
+[2024.06.04-14.49.43:259][117]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (863)
+[2024.06.04-14.49.43:261][117]LogModuleManager: Shutting down and abandoning module TraceInsights (861)
+[2024.06.04-14.49.43:267][117]MemoryProfiler: Shutdown
+[2024.06.04-14.49.43:269][117]NetworkingProfiler: Shutdown
+[2024.06.04-14.49.43:269][117]LoadingProfiler: Shutdown
+[2024.06.04-14.49.43:269][117]TimingProfiler: Shutdown
+[2024.06.04-14.49.43:274][117]LogModuleManager: Shutting down and abandoning module TraceServices (860)
+[2024.06.04-14.49.43:276][117]LogModuleManager: Shutting down and abandoning module TraceAnalysis (859)
+[2024.06.04-14.49.43:276][117]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (855)
+[2024.06.04-14.49.43:276][117]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (854)
+[2024.06.04-14.49.43:277][117]LogModuleManager: Shutting down and abandoning module InputBindingEditor (851)
+[2024.06.04-14.49.43:277][117]LogModuleManager: Shutting down and abandoning module MergeActors (849)
+[2024.06.04-14.49.43:278][117]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (847)
+[2024.06.04-14.49.43:279][117]LogModuleManager: Shutting down and abandoning module LocalizationService (846)
+[2024.06.04-14.49.43:279][117]LogModuleManager: Shutting down and abandoning module HardwareTargeting (843)
+[2024.06.04-14.49.43:279][117]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (841)
+[2024.06.04-14.49.43:280][117]LogModuleManager: Shutting down and abandoning module UndoHistory (839)
+[2024.06.04-14.49.43:280][117]LogModuleManager: Shutting down and abandoning module XmlParser (837)
+[2024.06.04-14.49.43:280][117]LogModuleManager: Shutting down and abandoning module Blutility (835)
+[2024.06.04-14.49.43:280][117]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (833)
+[2024.06.04-14.49.43:280][117]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (832)
+[2024.06.04-14.49.43:281][117]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (829)
+[2024.06.04-14.49.43:281][117]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (828)
+[2024.06.04-14.49.43:281][117]LogModuleManager: Shutting down and abandoning module SettingsEditor (825)
+[2024.06.04-14.49.43:282][117]LogModuleManager: Shutting down and abandoning module ProjectLauncher (823)
+[2024.06.04-14.49.43:282][117]LogModuleManager: Shutting down and abandoning module SessionFrontend (821)
+[2024.06.04-14.49.43:282][117]LogModuleManager: Shutting down and abandoning module ProfilerClient (819)
+[2024.06.04-14.49.43:283][117]LogModuleManager: Shutting down and abandoning module DeviceManager (817)
+[2024.06.04-14.49.43:284][117]LogModuleManager: Shutting down and abandoning module AutomationController (815)
+[2024.06.04-14.49.43:285][117]LogModuleManager: Shutting down and abandoning module AutomationWindow (813)
+[2024.06.04-14.49.43:286][117]LogModuleManager: Shutting down and abandoning module Layers (811)
+[2024.06.04-14.49.43:288][117]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (809)
+[2024.06.04-14.49.43:288][117]LogModuleManager: Shutting down and abandoning module DetailCustomizations (807)
+[2024.06.04-14.49.43:289][117]LogModuleManager: Shutting down and abandoning module PackagesDialog (805)
+[2024.06.04-14.49.43:289][117]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (803)
+[2024.06.04-14.49.43:289][117]LogModuleManager: Shutting down and abandoning module Persona (801)
+[2024.06.04-14.49.43:289][117]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (800)
+[2024.06.04-14.49.43:289][117]LogModuleManager: Shutting down and abandoning module Kismet (797)
+[2024.06.04-14.49.43:300][117]LogModuleManager: Shutting down and abandoning module KismetWidgets (796)
+[2024.06.04-14.49.43:300][117]LogModuleManager: Shutting down and abandoning module GraphEditor (793)
+[2024.06.04-14.49.43:300][117]LogModuleManager: Shutting down and abandoning module StructViewer (791)
+[2024.06.04-14.49.43:300][117]LogModuleManager: Shutting down and abandoning module ClassViewer (789)
+[2024.06.04-14.49.43:302][117]LogModuleManager: Shutting down and abandoning module NaniteTools (787)
+[2024.06.04-14.49.43:302][117]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (785)
+[2024.06.04-14.49.43:302][117]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (783)
+[2024.06.04-14.49.43:302][117]LogModuleManager: Shutting down and abandoning module SourceControlWindows (781)
+[2024.06.04-14.49.43:303][117]LogModuleManager: Shutting down and abandoning module OutputLog (779)
+[2024.06.04-14.49.43:305][117]LogModuleManager: Shutting down and abandoning module Documentation (777)
+[2024.06.04-14.49.43:305][117]LogModuleManager: Shutting down and abandoning module LiveCoding (775)
+[2024.06.04-14.49.43:319][117]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (773)
+[2024.06.04-14.49.43:320][117]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (771)
+[2024.06.04-14.49.43:320][117]LogModuleManager: Shutting down and abandoning module MovieScene (769)
+[2024.06.04-14.49.43:320][117]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (767)
+[2024.06.04-14.49.43:320][117]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (765)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (763)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module AudioMixer (762)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module AudioMixerCore (761)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module LauncherPlatform (757)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module AnalyticsET (755)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module PortalServices (753)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module PortalRpc (751)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module MessagingRpc (749)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module AIModule (747)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module GameplayDebugger (746)
+[2024.06.04-14.49.43:321][117]LogModuleManager: Shutting down and abandoning module AITestSuite (744)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module NavigationSystem (742)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module DataLayerEditor (739)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module EditorWidgets (738)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (735)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (733)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module TypedElementFramework (731)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (729)
+[2024.06.04-14.49.43:322][117]LogModuleManager: Shutting down and abandoning module ProfilerService (727)
+[2024.06.04-14.49.43:327][117]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (725)
+[2024.06.04-14.49.43:329][117]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (723)
+[2024.06.04-14.49.43:329][117]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (721)
+[2024.06.04-14.49.43:329][117]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (719)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module TakesCore (717)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (715)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module MegascansPlugin (713)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module Bridge (711)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (709)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (707)
+[2024.06.04-14.49.43:330][117]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (705)
+[2024.06.04-14.49.43:331][117]LogModuleManager: Shutting down and abandoning module CollectionManager (704)
+[2024.06.04-14.49.43:331][117]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (701)
+[2024.06.04-14.49.43:332][117]LogModuleManager: Shutting down and abandoning module LightMixer (699)
+[2024.06.04-14.49.43:332][117]LogModuleManager: Shutting down and abandoning module TakeSequencer (697)
+[2024.06.04-14.49.43:332][117]LogModuleManager: Shutting down and abandoning module TakeMovieScene (695)
+[2024.06.04-14.49.43:332][117]LogModuleManager: Shutting down and abandoning module VariantManager (693)
+[2024.06.04-14.49.43:335][117]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (692)
+[2024.06.04-14.49.43:336][117]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (689)
+[2024.06.04-14.49.43:337][117]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (687)
+[2024.06.04-14.49.43:337][117]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (685)
+[2024.06.04-14.49.43:337][117]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (683)
+[2024.06.04-14.49.43:337][117]LogModuleManager: Shutting down and abandoning module UObjectPlugin (681)
+[2024.06.04-14.49.43:337][117]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (679)
+[2024.06.04-14.49.43:338][117]LogModuleManager: Shutting down and abandoning module PluginUtils (677)
+[2024.06.04-14.49.43:338][117]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (675)
+[2024.06.04-14.49.43:339][117]LogModuleManager: Shutting down and abandoning module GitSourceControl (673)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module DumpGPUServices (671)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (669)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (667)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (665)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module MediaPlate (663)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (661)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module InterchangeTests (659)
+[2024.06.04-14.49.43:340][117]LogModuleManager: Shutting down and abandoning module MediaCompositing (657)
+[2024.06.04-14.49.43:341][117]LogModuleManager: Shutting down and abandoning module ImgMedia (655)
+[2024.06.04-14.49.43:341][117]LogModuleManager: Shutting down and abandoning module PresetAsset (653)
+[2024.06.04-14.49.43:341][117]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (651)
+[2024.06.04-14.49.43:341][117]LogModuleManager: Shutting down and abandoning module UVEditorTools (649)
+[2024.06.04-14.49.43:342][117]LogModuleManager: Shutting down and abandoning module UVEditor (647)
+[2024.06.04-14.49.43:342][117]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (645)
+[2024.06.04-14.49.43:342][117]LogOpenImageDenoise: OIDN shutting down
+[2024.06.04-14.49.43:342][117]LogModuleManager: Shutting down and abandoning module MeshLODToolset (643)
+[2024.06.04-14.49.43:342][117]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (641)
+[2024.06.04-14.49.43:343][117]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (639)
+[2024.06.04-14.49.43:344][117]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (637)
+[2024.06.04-14.49.43:345][117]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (635)
+[2024.06.04-14.49.43:345][117]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (633)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (631)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (629)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (627)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (625)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (624)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (622)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (619)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module DataflowNodes (617)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (615)
+[2024.06.04-14.49.43:346][117]LogModuleManager: Shutting down and abandoning module DataflowEditor (613)
+[2024.06.04-14.49.43:347][117]LogModuleManager: Shutting down and abandoning module FractureEditor (611)
+[2024.06.04-14.49.43:348][117]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (609)
+[2024.06.04-14.49.43:348][117]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (607)
+[2024.06.04-14.49.43:348][117]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (605)
+[2024.06.04-14.49.43:348][117]LogModuleManager: Shutting down and abandoning module BackChannel (603)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module ChaosNiagara (601)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (599)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module AutomationUtils (597)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (595)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (593)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (591)
+[2024.06.04-14.49.43:349][117]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (589)
+[2024.06.04-14.49.43:350][117]LogModuleManager: Shutting down and abandoning module StylusInput (587)
+[2024.06.04-14.49.43:350][117]LogModuleManager: Shutting down and abandoning module PluginBrowser (585)
+[2024.06.04-14.49.43:352][117]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (583)
+[2024.06.04-14.49.43:352][117]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (581)
+[2024.06.04-14.49.43:353][117]LogModuleManager: Shutting down and abandoning module CurveEditorTools (579)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module GLTFImporter (577)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module GLTFCore (575)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (573)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module EditorDebugTools (571)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (569)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module CryptoKeys (567)
+[2024.06.04-14.49.43:354][117]LogModuleManager: Shutting down and abandoning module ChangelistReview (565)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (563)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module SynthesisEditor (561)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module ResonanceAudio (559)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (557)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (555)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (553)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module ModelingOperators (551)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (549)
+[2024.06.04-14.49.43:355][117]LogModuleManager: Shutting down and abandoning module ModelingComponents (547)
+[2024.06.04-14.49.43:356][117]LogModuleManager: Shutting down and abandoning module GeometryFramework (546)
+[2024.06.04-14.49.43:357][117]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (543)
+[2024.06.04-14.49.43:357][117]LogModuleManager: Shutting down and abandoning module MeshModelingTools (541)
+[2024.06.04-14.49.43:357][117]LogModuleManager: Shutting down and abandoning module GooglePAD (539)
+[2024.06.04-14.49.43:357][117]LogModuleManager: Shutting down and abandoning module DynamicMesh (537)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (535)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (533)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module InputDebugging (531)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (529)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (527)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (525)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (523)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AudioCapture (521)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (520)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AssetTags (517)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (515)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AppleImageUtils (513)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AndroidPermission (511)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (509)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (507)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AlembicImporter (503)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module AlembicLibrary (502)
+[2024.06.04-14.49.43:358][117]LogModuleManager: Shutting down and abandoning module GeometryCache (501)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (500)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module ControlRigSpline (495)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (493)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module TemplateSequence (491)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (489)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module SequencerScripting (487)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (485)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (483)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (481)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (479)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module InterchangeEditor (477)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (475)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (473)
+[2024.06.04-14.49.43:359][117]LogModuleManager: Shutting down and abandoning module Paper2DEditor (471)
+[2024.06.04-14.49.43:361][117]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (469)
+[2024.06.04-14.49.43:363][117]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (467)
+[2024.06.04-14.49.43:363][117]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (465)
+[2024.06.04-14.49.43:363][117]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (463)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InterchangePipelines (461)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InterchangeExport (459)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InterchangeMessages (457)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InterchangeImport (455)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (453)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InterchangeNodes (451)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (449)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module TraceUtilities (447)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (445)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (443)
+[2024.06.04-14.49.43:364][117]LogModuleManager: Shutting down and abandoning module InputEditor (441)
+[2024.06.04-14.49.43:365][117]LogModuleManager: Shutting down and abandoning module BlueprintGraph (440)
+[2024.06.04-14.49.43:365][117]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (437)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (435)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module AnimationSharing (433)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (431)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (429)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module PBIK (427)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module FullBodyIK (425)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (423)
+[2024.06.04-14.49.43:366][117]LogModuleManager: Shutting down and abandoning module TakeRecorder (422)
+[2024.06.04-14.49.43:367][117]LogModuleManager: Shutting down and abandoning module ChaosCaching (419)
+[2024.06.04-14.49.43:367][117]LogModuleManager: Shutting down and abandoning module GameplayCameras (417)
+[2024.06.04-14.49.43:367][117]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (415)
+[2024.06.04-14.49.43:368][117]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (413)
+[2024.06.04-14.49.43:368][117]LogModuleManager: Shutting down and abandoning module FacialAnimation (411)
+[2024.06.04-14.49.43:368][117]LogModuleManager: Shutting down and abandoning module DataValidation (409)
+[2024.06.04-14.49.43:368][117]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (407)
+[2024.06.04-14.49.43:369][117]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (405)
+[2024.06.04-14.49.43:370][117]LogModuleManager: Shutting down and abandoning module LevelEditor (404)
+[2024.06.04-14.49.43:375][117]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (403)
+[2024.06.04-14.49.43:375][117]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (401)
+[2024.06.04-14.49.43:376][117]LogModuleManager: Shutting down and abandoning module MainFrame (399)
+[2024.06.04-14.49.43:376][117]LogModuleManager: Shutting down and abandoning module HotReload (398)
+[2024.06.04-14.49.43:376][117]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2024.06.04-14.49.43:376][117]LogModuleManager: Shutting down and abandoning module Synthesis (391)
+[2024.06.04-14.49.43:377][117]LogModuleManager: Shutting down and abandoning module SoundFields (389)
+[2024.06.04-14.49.43:377][117]LogModuleManager: Shutting down and abandoning module SignificanceManager (387)
+[2024.06.04-14.49.43:377][117]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (385)
+[2024.06.04-14.49.43:377][117]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (383)
+[2024.06.04-14.49.43:377][117]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (381)
+[2024.06.04-14.49.43:377][117]LogModuleManager: Shutting down and abandoning module MetasoundEditor (379)
+[2024.06.04-14.49.43:379][117]LogModuleManager: Shutting down and abandoning module AudioWidgets (378)
+[2024.06.04-14.49.43:379][117]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (377)
+[2024.06.04-14.49.43:381][117]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (373)
+[2024.06.04-14.49.43:381][117]LogModuleManager: Shutting down and abandoning module MetasoundEngine (371)
+[2024.06.04-14.49.43:381][117]LogModuleManager: Shutting down and abandoning module WaveTable (370)
+[2024.06.04-14.49.43:381][117]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (368)
+[2024.06.04-14.49.43:381][117]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (365)
+[2024.06.04-14.49.43:381][117]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (363)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (361)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (359)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (357)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module CableComponent (355)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (353)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (352)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (349)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module AnimationData (347)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module ActorSequence (345)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (343)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module IKRig (341)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (339)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module ControlRig (337)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module Constraints (336)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module LevelSequence (334)
+[2024.06.04-14.49.43:383][117]LogModuleManager: Shutting down and abandoning module TcpMessaging (331)
+[2024.06.04-14.49.43:484][117]LogModuleManager: Shutting down and abandoning module Paper2D (329)
+[2024.06.04-14.49.43:484][117]LogModuleManager: Shutting down and abandoning module UdpMessaging (327)
+[2024.06.04-14.49.43:586][117]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (325)
+[2024.06.04-14.49.43:586][117]LogModuleManager: Shutting down and abandoning module Niagara (323)
+[2024.06.04-14.49.43:586][117]LogModuleManager: Shutting down and abandoning module SignalProcessing (322)
+[2024.06.04-14.49.43:586][117]LogModuleManager: Shutting down and abandoning module NiagaraEditor (320)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module ContentBrowser (319)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module ToolMenus (318)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module ContentBrowserData (316)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module NiagaraCore (311)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (309)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module EnhancedInput (307)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (305)
+[2024.06.04-14.49.43:588][117]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (303)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module AndroidFileServer (301)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (299)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module PacketHandler (297)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (295)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module AnimGraph (293)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module TimeManagement (291)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module AnimationDataController (289)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (287)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (285)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module MediaAssets (283)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module Overlay (281)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module OverlayEditor (280)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module VREditor (277)
+[2024.06.04-14.49.43:612][117]LogModuleManager: Shutting down and abandoning module StringTableEditor (275)
+[2024.06.04-14.49.43:613][117]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (273)
+[2024.06.04-14.49.43:613][117]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (271)
+[2024.06.04-14.49.43:614][117]LogModuleManager: Shutting down and abandoning module FunctionalTesting (269)
+[2024.06.04-14.49.43:614][117]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (267)
+[2024.06.04-14.49.43:616][117]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (266)
+[2024.06.04-14.49.43:616][117]LogModuleManager: Shutting down and abandoning module UMG (263)
+[2024.06.04-14.49.43:616][117]LogModuleManager: Shutting down and abandoning module UMGEditor (262)
+[2024.06.04-14.49.43:617][117]LogModuleManager: Shutting down and abandoning module EditorStyle (257)
+[2024.06.04-14.49.43:617][117]LogModuleManager: Shutting down and abandoning module SlateReflector (255)
+[2024.06.04-14.49.43:621][117]LogModuleManager: Shutting down and abandoning module Slate (253)
+[2024.06.04-14.49.43:621][117]LogModuleManager: Shutting down and abandoning module SlateCore (251)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (249)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (247)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module UnrealEd (245)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module MRMesh (243)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module Messaging (241)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (239)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (237)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module Networking (235)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module Core (233)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module AssetDefinition (231)
+[2024.06.04-14.49.43:624][117]LogModuleManager: Shutting down and abandoning module MovieSceneTools (229)
+[2024.06.04-14.49.43:625][117]LogModuleManager: Shutting down and abandoning module CurveEditor (228)
+[2024.06.04-14.49.43:626][117]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2024.06.04-14.49.43:629][117]LogModuleManager: Shutting down and abandoning module KismetCompiler (223)
+[2024.06.04-14.49.43:629][117]LogModuleManager: Shutting down and abandoning module MeshBuilder (221)
+[2024.06.04-14.49.43:629][117]LogModuleManager: Shutting down and abandoning module NaniteBuilder (219)
+[2024.06.04-14.49.43:630][117]LogModuleManager: Shutting down and abandoning module MeshUtilities (217)
+[2024.06.04-14.49.43:630][117]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (216)
+[2024.06.04-14.49.43:630][117]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (215)
+[2024.06.04-14.49.43:630][117]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (214)
+[2024.06.04-14.49.43:630][117]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (212)
+[2024.06.04-14.49.43:631][117]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (210)
+[2024.06.04-14.49.43:633][117]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (208)
+[2024.06.04-14.49.43:633][117]LogModuleManager: Shutting down and abandoning module MaterialBaking (204)
+[2024.06.04-14.49.43:634][117]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (201)
+[2024.06.04-14.49.43:645][117]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (197)
+[2024.06.04-14.49.43:645][117]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (195)
+[2024.06.04-14.49.43:645][117]LogModuleManager: Shutting down and abandoning module DerivedDataCache (193)
+[2024.06.04-14.49.43:663][117]LogModuleManager: Shutting down and abandoning module TargetPlatform (191)
+[2024.06.04-14.49.43:663][117]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (190)
+[2024.06.04-14.49.43:664][117]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (188)
+[2024.06.04-14.49.43:664][117]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (186)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (184)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (182)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module AudioFormatBink (180)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (177)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (175)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (173)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (171)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (169)
+[2024.06.04-14.49.43:666][117]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (167)
+[2024.06.04-14.49.43:667][117]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (165)
+[2024.06.04-14.49.43:667][117]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (163)
+[2024.06.04-14.49.43:667][117]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (161)
+[2024.06.04-14.49.43:667][117]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (159)
+[2024.06.04-14.49.43:667][117]LogModuleManager: Shutting down and abandoning module TextureFormat (157)
+[2024.06.04-14.49.43:667][117]LogModuleManager: Shutting down and abandoning module ImageWrapper (156)
+[2024.06.04-14.49.43:668][117]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (154)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (152)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (150)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (148)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (146)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (144)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module TurnkeySupport (141)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module InputCore (138)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module Settings (136)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (134)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (132)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (131)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module Chaos (128)
+[2024.06.04-14.49.43:669][117]LogModuleManager: Shutting down and abandoning module GeometryCore (127)
+[2024.06.04-14.49.43:670][117]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (124)
+[2024.06.04-14.49.43:670][117]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (123)
+[2024.06.04-14.49.43:670][117]LogModuleManager: Shutting down and abandoning module AVEncoder (122)
+[2024.06.04-14.49.43:671][117]LogModuleManager: Shutting down and abandoning module D3D12RHI (118)
+[2024.06.04-14.49.43:671][117]LogModuleManager: Shutting down and abandoning module GLTFExporter (116)
+[2024.06.04-14.49.43:671][117]LogModuleManager: Shutting down and abandoning module VariantManagerContent (114)
+[2024.06.04-14.49.43:671][117]LogModuleManager: Shutting down and abandoning module DatasmithContent (112)
+[2024.06.04-14.49.43:671][117]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (110)
+[2024.06.04-14.49.43:671][117]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (108)
+[2024.06.04-14.49.43:672][117]RenderDocPlugin: plugin has been unloaded.
+[2024.06.04-14.49.43:672][117]LogModuleManager: Shutting down and abandoning module PixWinPlugin (106)
+[2024.06.04-14.49.43:672][117]LogModuleManager: Shutting down and abandoning module WmfMedia (104)
+[2024.06.04-14.49.43:677][117]LogModuleManager: Shutting down and abandoning module Media (103)
+[2024.06.04-14.49.43:678][117]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (100)
+[2024.06.04-14.49.43:679][117]LogModuleManager: Shutting down and abandoning module ChaosCloth (98)
+[2024.06.04-14.49.43:679][117]LogModuleManager: Shutting down and abandoning module AISupportModule (96)
+[2024.06.04-14.49.43:679][117]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (94)
+[2024.06.04-14.49.43:679][117]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (92)
+[2024.06.04-14.49.43:679][117]LogModuleManager: Shutting down and abandoning module ChunkDownloader (90)
+[2024.06.04-14.49.43:680][117]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (88)
+[2024.06.04-14.49.43:682][117]LogModuleManager: Shutting down and abandoning module XMPP (83)
+[2024.06.04-14.49.43:682][117]LogModuleManager: Shutting down and abandoning module WebSockets (82)
+[2024.06.04-14.49.43:710][117]LogModuleManager: Shutting down and abandoning module HTTP (79)
+[2024.06.04-14.49.43:710][117]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2024.06.04-14.49.43:710][117]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB7D17D26-46B6-8677-8581-3BA827FFA925%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.0-25360045%2B%2B%2BUE5%2BRelease-5.2&UserID=ec28812e4bbbd48510931eb6345e06a6%7C512477bd84b54890bdb5222860523791%7C848e0372-f696-40f1-84c5-147d3d8e1428&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.06.04-14.49.43:722][117]LogModuleManager: Shutting down and abandoning module SSL (78)
+[2024.06.04-14.49.43:724][117]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2024.06.04-14.49.43:724][117]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (72)
+[2024.06.04-14.49.43:724][117]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (70)
+[2024.06.04-14.49.43:724][117]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (68)
+[2024.06.04-14.49.43:725][117]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (66)
+[2024.06.04-14.49.43:726][117]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (64)
+[2024.06.04-14.49.43:726][117]LogModuleManager: Shutting down and abandoning module NiagaraShader (62)
+[2024.06.04-14.49.43:726][117]LogModuleManager: Shutting down and abandoning module DesktopPlatform (60)
+[2024.06.04-14.49.43:726][117]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (58)
+[2024.06.04-14.49.43:728][117]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (56)
+[2024.06.04-14.49.43:730][117]LogModuleManager: Shutting down and abandoning module SourceControl (55)
+[2024.06.04-14.49.43:731][117]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (52)
+[2024.06.04-14.49.43:731][117]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (50)
+[2024.06.04-14.49.43:731][117]LogModuleManager: Shutting down and abandoning module PlatformCrypto (48)
+[2024.06.04-14.49.43:731][117]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (46)
+[2024.06.04-14.49.43:731][117]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2024.06.04-14.49.43:731][117]LogXGEController: Cleaning working directory: C:/Users/Miquel Nadal/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.06.04-14.49.43:732][117]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2024.06.04-14.49.43:732][117]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2024.06.04-14.49.43:733][117]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.06.04-14.49.43:735][117]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.06.04-14.49.43:738][117]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.06.04-14.49.43:738][117]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.06.04-14.49.43:738][117]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.06.04-14.49.43:739][117]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.06.04-14.49.43:740][117]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.06.04-14.49.44:041][117]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.06.04-14.49.44:077][117]LogExit: Exiting.
+[2024.06.04-14.49.44:097][117]Log file closed, 06/04/24 16:49:44
