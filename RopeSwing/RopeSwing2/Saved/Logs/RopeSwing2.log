@@ -1574,3 +1574,177 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.06.14-10.47.52:534][419]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
 [2024.06.14-10.47.52:534][419]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
 [2024.06.14-11.05.22:620][563]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.06.14-11.08.16:618][166]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar
+[2024.06.14-11.08.16:620][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-11.08.16:620][166]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-11.08.18:098][166]LogSlate: Took 0.005543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.06.14-11.08.19:849][315]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.06.14-11.09.27:112][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.06.14-11.09.27:114][453]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level3' took 0.022
+[2024.06.14-11.09.27:114][453]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_PlayerChar] ([2] browsable assets)...
+[2024.06.14-11.09.27:116][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-11.09.27:207][453]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Blueprints/BP_PlayerChar.BP_PlayerChar_C]
+[2024.06.14-11.09.27:241][453]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar]
+[2024.06.14-11.09.27:241][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_PlayerChar]
+[2024.06.14-11.09.27:294][453]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_PlayerChar_Auto2
+[2024.06.14-11.09.27:295][453]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BP_PlayerChar_Auto2934A3871421172D3DD89FBB4B382AD17.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/Autosaves/Game/Blueprints/BP_PlayerChar_Auto2.uasset'
+[2024.06.14-11.09.27:295][453]LogFileHelpers: Auto-saving content packages took 0.182
+[2024.06.14-11.10.34:236][386]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UGameplayStatics::OpenLevel' [Element not found.]
+[2024.06.14-11.10.41:140][159]BlueprintLog: New page: Compile BP_PlayerChar
+[2024.06.14-11.10.41:268][159]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.06.14-11.10.42:782][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.06.14-11.10.42:862][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_PlayerChar" FILE="D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset" SILENT=true
+[2024.06.14-11.10.42:912][314]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_PlayerChar
+[2024.06.14-11.10.42:912][314]LogSavePackage: Moving 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Saved/BP_PlayerChar51567B064FF490D2830923AD84466E3B.tmp' to 'D:/Enti2022-23/Repos/Vertical_RopeSwing/RopeSwing/RopeSwing2/Content/Blueprints/BP_PlayerChar.uasset'
+[2024.06.14-11.10.42:918][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 835 ms)
+[2024.06.14-11.10.42:923][314]AssetCheck: New page: Asset Save: BP_PlayerChar
+[2024.06.14-11.10.42:923][314]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_PlayerChar.BP_PlayerChar
+[2024.06.14-11.10.43:545][388]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.43:617][389]LogViewport: Scene viewport resized to 482x209, mode Windowed.
+[2024.06.14-11.10.46:175][562]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.06.14-11.10.46:181][562]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.06.14-11.10.46:181][562]PIE: New page: PIE session: Level3 (14 de juny 2024, 15:10:46)
+[2024.06.14-11.10.46:181][562]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level3
+[2024.06.14-11.10.46:190][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008993s)
+[2024.06.14-11.10.46:190][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level3.Level3 to /Game/Levels/UEDPIE_0_Level3.Level3 (0.009034s)
+[2024.06.14-11.10.46:190][562]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-11.10.46:190][562]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-11.10.46:190][562]LogAIModule: Creating AISystem for world Level3
+[2024.06.14-11.10.46:190][562]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2024.06.14-11.10.46:210][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.06.14-11.10.46:220][562]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.06.14-11.10.46:220][562]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.06.14-11.10.46:220][562]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.06.14-11.10.46:220][562]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.06.14-11.10.46:220][562]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.06.14-11.10.46:221][562]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.06.14-11.10.46:221][562]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.06.14-11.10.46:221][562]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.06.14-11.10.46:221][562]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.06.14-11.10.46:221][562]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.06.14-11.10.46:221][562]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.06.14-11.10.46:221][562]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.06.14-11.10.46:223][562]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.06.14-11.10.46:251][562]LogAudioMixer: Display: Using Audio Hardware Device Headphones (2- Astro MixAmp Pro Game)
+[2024.06.14-11.10.46:251][562]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.06.14-11.10.46:251][562]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.06.14-11.10.46:251][562]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.06.14-11.10.46:251][562]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.06.14-11.10.46:251][562]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.06.14-11.10.46:253][562]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.06.14-11.10.46:253][562]LogInit: FAudioDevice initialized with ID 4.
+[2024.06.14-11.10.46:253][562]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.06.14-11.10.46:253][562]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level3'.
+[2024.06.14-11.10.46:253][562]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.14-11.10.46:255][562]LogLoad: Game class is 'GameModeBase'
+[2024.06.14-11.10.46:258][562]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level3.Level3 up for play (max tick rate 0) at 2024.06.14-13.10.46
+[2024.06.14-11.10.46:258][562]LogWorld: Bringing up level for play took: 0.002587
+[2024.06.14-11.10.46:260][562]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.06.14-11.10.46:261][562]PIE: Server logged in
+[2024.06.14-11.10.46:261][562]PIE: Play in editor total start time 0,081 seconds.
+[2024.06.14-11.10.46:369][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:369][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:370][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:370][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:370][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:370][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:371][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.46:371][562]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:858][741]LogNet: Browse: /Game/Levels/Testbed
+[2024.06.14-11.10.47:859][741]LogLoad: LoadMap: /Game/Levels/Testbed
+[2024.06.14-11.10.47:859][741]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level3
+[2024.06.14-11.10.47:860][741]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2024.06.14-11.10.47:860][741]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.14-11.10.47:912][741]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.14-11.10.47:914][741]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.06.14-11.10.47:961][741]LogAudio: Display: Audio Device (ID: 4) registered with world 'Testbed'.
+[2024.06.14-11.10.47:961][741]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-11.10.47:961][741]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-11.10.47:961][741]LogAIModule: Creating AISystem for world Testbed
+[2024.06.14-11.10.47:962][741]LogPlayLevel: PIE: World Init took: (0.000922s)
+[2024.06.14-11.10.47:962][741]LogLoad: Game class is 'GameModeBase'
+[2024.06.14-11.10.47:970][741]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Testbed.Testbed up for play (max tick rate 0) at 2024.06.14-13.10.47
+[2024.06.14-11.10.47:970][741]LogWorld: Bringing up level for play took: 0.008146
+[2024.06.14-11.10.47:971][741]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.06.14-11.10.47:972][741]LogLoad: Took 0.113689 seconds to LoadMap(/Game/Levels/Testbed)
+[2024.06.14-11.10.47:986][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:987][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:987][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:988][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:988][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:988][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:988][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.47:989][741]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.48:936][854]LogNet: Browse: /Game/Levels/Level2
+[2024.06.14-11.10.48:936][854]LogLoad: LoadMap: /Game/Levels/Level2
+[2024.06.14-11.10.48:936][854]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Testbed
+[2024.06.14-11.10.48:936][854]LogWorld: UWorld::CleanupWorld for Testbed, bSessionEnded=true, bCleanupResources=true
+[2024.06.14-11.10.48:937][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.14-11.10.49:001][854]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.14-11.10.49:004][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.06.14-11.10.49:027][854]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level2'.
+[2024.06.14-11.10.49:027][854]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-11.10.49:027][854]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-11.10.49:027][854]LogAIModule: Creating AISystem for world Level2
+[2024.06.14-11.10.49:027][854]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2024.06.14-11.10.49:027][854]LogLoad: Game class is 'GameModeBase'
+[2024.06.14-11.10.49:040][854]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2024.06.14-13.10.49
+[2024.06.14-11.10.49:040][854]LogWorld: Bringing up level for play took: 0.003296
+[2024.06.14-11.10.49:040][854]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.06.14-11.10.49:041][854]LogLoad: Took 0.105602 seconds to LoadMap(/Game/Levels/Level2)
+[2024.06.14-11.10.49:047][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:047][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:048][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:048][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:049][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:049][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:049][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:049][854]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.49:951][960]LogNet: Browse: /Game/Levels/Level3
+[2024.06.14-11.10.49:951][960]LogLoad: LoadMap: /Game/Levels/Level3
+[2024.06.14-11.10.49:951][960]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level2
+[2024.06.14-11.10.49:952][960]LogWorld: UWorld::CleanupWorld for Level2, bSessionEnded=true, bCleanupResources=true
+[2024.06.14-11.10.49:952][960]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.14-11.10.50:000][960]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.06.14-11.10.50:003][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.06.14-11.10.50:005][960]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level3
+[2024.06.14-11.10.50:013][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008111s)
+[2024.06.14-11.10.50:013][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level3.Level3 to /Game/Levels/UEDPIE_0_Level3.Level3 (0.008149s)
+[2024.06.14-11.10.50:013][960]LogAudio: Display: Audio Device (ID: 4) registered with world 'Level3'.
+[2024.06.14-11.10.50:014][960]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.06.14-11.10.50:014][960]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.06.14-11.10.50:014][960]LogAIModule: Creating AISystem for world Level3
+[2024.06.14-11.10.50:014][960]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2024.06.14-11.10.50:014][960]LogLoad: Game class is 'GameModeBase'
+[2024.06.14-11.10.50:016][960]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level3.Level3 up for play (max tick rate 0) at 2024.06.14-13.10.50
+[2024.06.14-11.10.50:017][960]LogWorld: Bringing up level for play took: 0.002200
+[2024.06.14-11.10.50:017][960]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.06.14-11.10.50:018][960]LogLoad: Took 0.066253 seconds to LoadMap(/Game/Levels/UEDPIE_0_Level3)
+[2024.06.14-11.10.50:023][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:023][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:024][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:024][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:024][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:025][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:025][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.50:025][960]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:244][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.14-11.10.51:244][ 98]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Level3
+[2024.06.14-11.10.51:244][ 98]LogWorld: UWorld::CleanupWorld for Level3, bSessionEnded=true, bCleanupResources=true
+[2024.06.14-11.10.51:245][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.14-11.10.51:282][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.06.14-11.10.51:286][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.06.14-11.10.51:304][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.06.14-11.10.51:304][ 98]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.06.14-11.10.51:304][ 98]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.14-11.10.51:306][ 98]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.06.14-11.10.51:312][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.06.14-11.10.51:344][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:344][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:345][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:345][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:346][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:346][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:346][ 98]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.06.14-11.10.51:380][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.06.14-11.10.51:384][ 99]LogViewport: Scene viewport resized to 482x209, mode Windowed.
